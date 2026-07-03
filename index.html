@@ -1753,18 +1753,14 @@
     startCountdown();
 
     /* ==========================================================================
-       2. LINK DE REDIRECIONAMENTO DE VENDAS (CAKTO)
-       ========================================================================== */
-    // INSIRA SEU LINK DE CHECKOUT DA CAKTO ABAIXO:
-    const LINK_CHECKOUT_CAKTO = "pay.cakto.com.br/oqz56or_956880";
+   LINK DO CHECKOUT CAKTO
+   ========================================================================== */
 
-    function irParaCheckout() {
-      if (LINK_CHECKOUT_CAKTO === "pay.cakto.com.br/oqz56or_956880" || !LINK_CHECKOUT_CAKTO) {
-        alert("Link de checkout não configurado. Por favor, edite o código HTML e substitua 'pay.cakto.com.br/oqz56or_956880' pelo seu link real da Cakto.");
-      } else {
-        window.location.href = LINK_CHECKOUT_CAKTO;
-      }
-    }
+const LINK_CHECKOUT_CAKTO = "https://pay.cakto.com.br/oqz56or_956880";
+
+function irParaCheckout() {
+    window.location.assign(LINK_CHECKOUT_CAKTO);
+}
 
     // Configurando cliques dos botões CTA
     document.getElementById('cta-button-main').addEventListener('click', irParaCheckout);
