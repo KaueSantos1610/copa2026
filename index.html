@@ -1,0 +1,1823 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO e Tags de Otimização -->
+  <title>Álbum Digital Copa 2026 + Todas as Figurinhas - Oferta Especial</title>
+  <meta name="description" content="Baixe imediatamente o Álbum Digital Completo da Copa do Mundo 2026 com todas as figurinhas digitais em alta qualidade para imprimir e colecionar. Download imediato!">
+  <meta name="keywords" content="album copa 2026, album digital copa, figurinhas copa 2026, figurinhas digitais, download album copa, copa do mundo 2026">
+  <meta name="author" content="Álbum Digital Premium">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Álbum Digital Copa 2026 + Todas as Figurinhas - Oferta Especial">
+  <meta property="og:description" content="Acesse imediatamente o Álbum Digital Completo da Copa do Mundo 2026 + Figurinhas Digitais em alta resolução. Apenas R$ 9,90!">
+  <meta property="og:image" content="assets/images/album_copa_mockup.png">
+  
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="Álbum Digital Copa 2026 + Todas as Figurinhas - Oferta Especial">
+  <meta property="twitter:description" content="Baixe imediatamente o álbum digital da Copa do Mundo 2026 com todas as figurinhas em alta qualidade. Risco Zero!">
+  <meta property="twitter:image" content="assets/images/album_copa_mockup.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/images/stickers_copa_mockup.png">
+
+  <!-- Google Fonts - Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
+
+  <style>
+    /* ==========================================================================
+       1. VARIÁVEIS DO TEMA E RESET
+       ========================================================================== */
+    :root {
+      --bg-dark: #0A0A0A;
+      --bg-card: rgba(21, 21, 21, 0.75);
+      --bg-card-hover: rgba(30, 30, 30, 0.85);
+      --color-white: #FFFFFF;
+      --color-gray: #B3B3B3;
+      --color-dark-gray: #1E1E1E;
+      --color-red: #FF2D2D;
+      --color-red-glow: rgba(255, 45, 45, 0.4);
+      --color-gold: #FFD700;
+      --color-gold-glow: rgba(255, 215, 0, 0.3);
+      --color-blue-glow: rgba(0, 240, 255, 0.35);
+      --border-glass: rgba(255, 255, 255, 0.08);
+      --font-family: 'Poppins', sans-serif;
+      --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background-color: var(--bg-dark);
+      color: var(--color-white);
+      font-family: var(--font-family);
+      overflow-x: hidden;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* ==========================================================================
+       2. ELEMENTOS DE BACKGROUND / EFEITOS
+       ========================================================================== */
+    .bg-particles {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      z-index: -1;
+      overflow: hidden;
+    }
+
+    .particle {
+      position: absolute;
+      background: radial-gradient(circle, var(--color-red) 0%, transparent 70%);
+      border-radius: 50%;
+      opacity: 0.15;
+      filter: blur(8px);
+      animation: float 25s infinite linear;
+    }
+
+    .particle:nth-child(1) {
+      width: 300px;
+      height: 300px;
+      top: 15%;
+      left: -100px;
+      background: radial-gradient(circle, var(--color-red) 0%, transparent 70%);
+      animation-duration: 20s;
+    }
+
+    .particle:nth-child(2) {
+      width: 400px;
+      height: 400px;
+      top: 55%;
+      right: -150px;
+      background: radial-gradient(circle, #1a33ff 0%, transparent 70%);
+      opacity: 0.12;
+      animation-duration: 30s;
+    }
+
+    .particle:nth-child(3) {
+      width: 250px;
+      height: 250px;
+      top: 80%;
+      left: 10%;
+      background: radial-gradient(circle, var(--color-gold) 0%, transparent 70%);
+      opacity: 0.1;
+      animation-duration: 25s;
+    }
+
+    @keyframes float {
+      0% { transform: translateY(0) rotate(0deg) scale(1); }
+      50% { transform: translateY(-40px) rotate(180deg) scale(1.1); }
+      100% { transform: translateY(0) rotate(360deg) scale(1); }
+    }
+
+    /* ==========================================================================
+       3. COMPONENTES GLOBAIS
+       ========================================================================== */
+    .container {
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    .glass-card {
+      background: var(--bg-card);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border: 1px solid var(--border-glass);
+      border-radius: 20px;
+      padding: 30px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+      transition: var(--transition);
+    }
+
+    .glass-card:hover {
+      border-color: rgba(255, 45, 45, 0.25);
+      box-shadow: 0 15px 40px rgba(255, 45, 45, 0.15);
+      transform: translateY(-5px);
+    }
+
+    /* Glow de Destaque */
+    .glow-red {
+      box-shadow: 0 0 35px var(--color-red-glow);
+    }
+
+    .glow-gold {
+      box-shadow: 0 0 35px var(--color-gold-glow);
+    }
+
+    /* Títulos */
+    .section-title {
+      font-size: clamp(2rem, 4vw, 3rem);
+      font-weight: 800;
+      text-align: center;
+      margin-bottom: 50px;
+      text-transform: uppercase;
+      letter-spacing: -0.5px;
+      position: relative;
+    }
+
+    .section-title span {
+      background: linear-gradient(135deg, var(--color-white) 30%, var(--color-red) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .section-title::after {
+      content: '';
+      position: absolute;
+      bottom: -15px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 80px;
+      height: 4px;
+      background: var(--color-red);
+      border-radius: 2px;
+      box-shadow: 0 0 10px var(--color-red);
+    }
+
+    /* Botão CTA Principal */
+    .btn-cta {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      max-width: 480px;
+      padding: 22px 30px;
+      font-size: clamp(1.1rem, 2vw, 1.4rem);
+      font-weight: 800;
+      color: var(--color-white);
+      background: linear-gradient(135deg, #FF2D2D 0%, #B30000 100%);
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+      text-decoration: none;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      position: relative;
+      overflow: hidden;
+      box-shadow: 0 10px 30px rgba(255, 45, 45, 0.4);
+      transition: var(--transition);
+      animation: pulse 2s infinite ease-in-out;
+    }
+
+    .btn-cta:hover {
+      transform: scale(1.03) translateY(-2px);
+      box-shadow: 0 15px 40px rgba(255, 45, 45, 0.6);
+      background: linear-gradient(135deg, #FF4545 0%, #CC0000 100%);
+    }
+
+    .btn-cta:active {
+      transform: scale(0.99) translateY(0);
+    }
+
+    .btn-cta::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -150%;
+      width: 50%;
+      height: 100%;
+      background: linear-gradient(
+        to right,
+        rgba(255, 255, 255, 0) 0%,
+        rgba(255, 255, 255, 0.3) 50%,
+        rgba(255, 255, 255, 0) 100%
+      );
+      transform: skewX(-25deg);
+      transition: 0.75s;
+    }
+
+    .btn-cta:hover::before {
+      animation: shine-btn 1.5s infinite ease-in-out;
+    }
+
+    @keyframes pulse {
+      0%, 100% {
+        transform: scale(1);
+        box-shadow: 0 10px 30px rgba(255, 45, 45, 0.4);
+      }
+      50% {
+        transform: scale(1.04);
+        box-shadow: 0 15px 45px rgba(255, 45, 45, 0.7), 0 0 20px var(--color-red-glow);
+      }
+    }
+
+    @keyframes shine-btn {
+      100% { left: 150%; }
+    }
+
+    /* Badges */
+    .badge-special {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(255, 215, 0, 0.15);
+      border: 1px solid var(--color-gold);
+      color: var(--color-gold);
+      padding: 8px 16px;
+      border-radius: 30px;
+      font-size: 0.85rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 20px;
+      box-shadow: 0 0 15px rgba(255, 215, 0, 0.1);
+    }
+
+    /* ==========================================================================
+       4. HEADER
+       ========================================================================== */
+    header {
+      padding: 20px 0;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+      background: rgba(10, 10, 10, 0.8);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    header .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 1.4rem;
+      font-weight: 900;
+      letter-spacing: -0.5px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .logo span {
+      color: var(--color-red);
+    }
+
+    .header-badge {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.85rem;
+      color: var(--color-gray);
+      background: rgba(255, 255, 255, 0.03);
+      padding: 8px 16px;
+      border-radius: 50px;
+      border: 1px solid rgba(255, 255, 255, 0.05);
+    }
+
+    .header-badge svg {
+      width: 14px;
+      height: 14px;
+      fill: #4CAF50;
+    }
+
+    /* ==========================================================================
+       5. HERO SECTION
+       ========================================================================== */
+    .hero {
+      padding: 80px 0;
+      position: relative;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.2fr 1fr;
+      gap: 60px;
+      align-items: center;
+    }
+
+    .hero-text {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .hero-title {
+      font-size: clamp(2.5rem, 5vw, 4rem);
+      font-weight: 900;
+      line-height: 1.15;
+      letter-spacing: -1.5px;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+    }
+
+    .hero-title span {
+      background: linear-gradient(135deg, var(--color-white) 40%, var(--color-red) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      filter: drop-shadow(0 0 15px rgba(255, 45, 45, 0.3));
+    }
+
+    .hero-subtitle {
+      font-size: clamp(1rem, 2vw, 1.25rem);
+      color: var(--color-gray);
+      margin-bottom: 35px;
+      font-weight: 300;
+      max-width: 580px;
+    }
+
+    /* Promo Pricing & Timer Box */
+    .hero-promo-box {
+      width: 100%;
+      max-width: 480px;
+      margin-bottom: 30px;
+      background: rgba(20, 20, 20, 0.85);
+      border: 1px solid rgba(255, 45, 45, 0.15);
+      border-radius: 20px;
+      padding: 24px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+      box-shadow: 0 0 30px rgba(255, 45, 45, 0.05);
+    }
+
+    .hero-promo-box::before {
+      content: '';
+      position: absolute;
+      top: -10%;
+      left: -10%;
+      width: 120%;
+      height: 120%;
+      background: radial-gradient(circle at center, rgba(255, 45, 45, 0.08) 0%, transparent 60%);
+      pointer-events: none;
+    }
+
+    .pricing-wrap {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      margin-bottom: 15px;
+    }
+
+    .price-old {
+      font-size: 1.2rem;
+      color: var(--color-gray);
+      text-decoration: line-through;
+    }
+
+    .price-new-wrap {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .price-new-label {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      color: var(--color-gold);
+      font-weight: 700;
+      letter-spacing: 1px;
+    }
+
+    .price-new {
+      font-size: clamp(2.5rem, 4vw, 3.5rem);
+      font-weight: 900;
+      color: var(--color-white);
+      line-height: 1;
+      background: linear-gradient(135deg, var(--color-white) 60%, var(--color-gold) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      filter: drop-shadow(0 0 10px rgba(255, 215, 0, 0.2));
+    }
+
+    /* Timer */
+    .timer-wrap {
+      margin-top: 15px;
+      border-top: 1px solid rgba(255, 255, 255, 0.06);
+      padding-top: 15px;
+    }
+
+    .timer-text {
+      font-size: 0.85rem;
+      color: var(--color-gray);
+      margin-bottom: 8px;
+      text-transform: uppercase;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+    }
+
+    .timer-clock {
+      font-size: 2rem;
+      font-weight: 800;
+      color: var(--color-red);
+      font-family: monospace;
+      letter-spacing: 2px;
+      text-shadow: 0 0 10px var(--color-red-glow);
+      display: inline-block;
+    }
+
+    /* Hero Media (Right Column) */
+    .hero-media {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .hero-media-wrapper {
+      position: relative;
+      width: 100%;
+      max-width: 440px;
+    }
+
+    .mockup-main {
+      width: 100%;
+      height: auto;
+      border-radius: 16px;
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+      position: relative;
+      z-index: 2;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      overflow: hidden;
+      transform: perspective(1000px) rotateY(-8deg) rotateX(5deg);
+      transition: var(--transition);
+    }
+
+    .mockup-main:hover {
+      transform: perspective(1000px) rotateY(0deg) rotateX(0deg) scale(1.02);
+    }
+
+    /* Brilho passando na capa */
+    .mockup-main-shine {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 3;
+      pointer-events: none;
+      overflow: hidden;
+      border-radius: 16px;
+    }
+
+    .mockup-main-shine::before {
+      content: '';
+      position: absolute;
+      top: -50%;
+      left: -150%;
+      width: 50%;
+      height: 200%;
+      background: linear-gradient(
+        to right,
+        rgba(255, 255, 255, 0) 0%,
+        rgba(255, 255, 255, 0.25) 50%,
+        rgba(255, 255, 255, 0) 100%
+      );
+      transform: rotate(30deg);
+      animation: shine-mockup 6s infinite ease-in-out;
+    }
+
+    @keyframes shine-mockup {
+      0% { left: -150%; }
+      30%, 100% { left: 150%; }
+    }
+
+    .mockup-stickers {
+      position: absolute;
+      bottom: -40px;
+      right: -30px;
+      width: 60%;
+      z-index: 4;
+      border-radius: 12px;
+      box-shadow: 0 15px 35px rgba(0, 0, 0, 0.7);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      transform: rotate(6deg) scale(1);
+      transition: var(--transition);
+    }
+
+    .mockup-stickers:hover {
+      transform: rotate(0deg) scale(1.1) translateY(-10px);
+      z-index: 5;
+    }
+
+    /* Detalhes de Glow Atrás do Mockup */
+    .media-glow {
+      position: absolute;
+      width: 320px;
+      height: 320px;
+      border-radius: 50%;
+      filter: blur(120px);
+      z-index: 1;
+      pointer-events: none;
+    }
+
+    .media-glow-red {
+      background: var(--color-red-glow);
+      top: -20px;
+      right: -20px;
+    }
+
+    .media-glow-blue {
+      background: var(--color-blue-glow);
+      bottom: -40px;
+      left: -20px;
+    }
+
+    /* Seguros e Formas de Pagamento */
+    .payment-seals {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+      margin-top: 50px;
+      padding: 20px;
+      border-top: 1px solid rgba(255, 255, 255, 0.05);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    }
+
+    .seal-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 0.8rem;
+      color: var(--color-gray);
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .seal-item svg {
+      width: 24px;
+      height: 24px;
+      fill: var(--color-red);
+    }
+
+    .checkout-flags {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      opacity: 0.7;
+    }
+
+    .checkout-flags img {
+      height: 20px;
+      object-fit: contain;
+    }
+
+    /* ==========================================================================
+       6. O QUE VOCÊ RECEBE (GRID)
+       ========================================================================== */
+    .receive {
+      padding: 100px 0;
+      background: relative;
+    }
+
+    .receive-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 25px;
+    }
+
+    .receive-card {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .receive-card-icon {
+      width: 50px;
+      height: 50px;
+      border-radius: 12px;
+      background: rgba(255, 45, 45, 0.1);
+      border: 1px solid rgba(255, 45, 45, 0.2);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--color-red);
+      font-size: 1.5rem;
+      box-shadow: 0 0 15px rgba(255, 45, 45, 0.1);
+      transition: var(--transition);
+    }
+
+    .receive-card:hover .receive-card-icon {
+      background: var(--color-red);
+      color: var(--color-white);
+      transform: scale(1.1) rotate(5deg);
+      box-shadow: 0 0 20px var(--color-red-glow);
+    }
+
+    .receive-card-title {
+      font-size: 1.15rem;
+      font-weight: 700;
+    }
+
+    .receive-card-desc {
+      font-size: 0.9rem;
+      color: var(--color-gray);
+      font-weight: 300;
+    }
+
+    /* ==========================================================================
+       7. BENEFÍCIOS (ÍCONES MODERNOS)
+       ========================================================================== */
+    .benefits {
+      padding: 100px 0;
+      background: linear-gradient(180deg, transparent 0%, rgba(255, 45, 45, 0.03) 50%, transparent 100%);
+    }
+
+    .benefits-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 40px;
+    }
+
+    .benefit-item {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .benefit-icon-wrapper {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, rgba(20, 20, 20, 0.9) 0%, rgba(10, 10, 10, 0.9) 100%);
+      border: 1px solid rgba(255, 255, 255, 0.06);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+      transition: var(--transition);
+    }
+
+    .benefit-icon-wrapper::after {
+      content: '';
+      position: absolute;
+      top: -2px;
+      left: -2px;
+      right: -2px;
+      bottom: -2px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--color-red), var(--color-gold));
+      z-index: -1;
+      opacity: 0.2;
+      transition: var(--transition);
+    }
+
+    .benefit-item:hover .benefit-icon-wrapper {
+      transform: translateY(-8px);
+      box-shadow: 0 15px 30px rgba(255, 45, 45, 0.2);
+    }
+
+    .benefit-item:hover .benefit-icon-wrapper::after {
+      opacity: 0.8;
+      box-shadow: 0 0 20px rgba(255, 45, 45, 0.4);
+    }
+
+    .benefit-icon-wrapper svg {
+      width: 32px;
+      height: 32px;
+      fill: var(--color-white);
+      transition: var(--transition);
+    }
+
+    .benefit-item:hover svg {
+      fill: var(--color-gold);
+      transform: scale(1.1);
+    }
+
+    .benefit-title {
+      font-size: 1.1rem;
+      font-weight: 700;
+    }
+
+    .benefit-desc {
+      font-size: 0.85rem;
+      color: var(--color-gray);
+      font-weight: 300;
+      max-width: 220px;
+    }
+
+    /* ==========================================================================
+       8. GALERIA (PREVIEW INTERNO COM EFEITO DE TILT E ZOOM)
+       ========================================================================== */
+    .gallery {
+      padding: 100px 0;
+    }
+
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+    }
+
+    .gallery-card {
+      position: relative;
+      overflow: hidden;
+      border-radius: 20px;
+      border: 1px solid var(--border-glass);
+      box-shadow: 0 15px 40px rgba(0, 0, 0, 0.6);
+      transition: var(--transition);
+      aspect-ratio: 16/10;
+    }
+
+    .gallery-card img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.6s cubic-bezier(0.25, 0.8, 0.25, 1);
+    }
+
+    .gallery-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(to top, rgba(10, 10, 10, 0.9) 0%, rgba(10, 10, 10, 0.2) 60%, transparent 100%);
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding: 30px;
+      opacity: 0.9;
+      transition: var(--transition);
+    }
+
+    .gallery-card:hover img {
+      transform: scale(1.08) rotate(1deg);
+    }
+
+    .gallery-card:hover {
+      border-color: var(--color-gold);
+      box-shadow: 0 20px 50px rgba(255, 215, 0, 0.15);
+    }
+
+    .gallery-tag {
+      display: inline-block;
+      align-self: flex-start;
+      background: var(--color-red);
+      color: var(--color-white);
+      font-size: 0.7rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      padding: 4px 10px;
+      border-radius: 4px;
+      margin-bottom: 10px;
+      letter-spacing: 0.5px;
+    }
+
+    .gallery-title {
+      font-size: 1.25rem;
+      font-weight: 700;
+      margin-bottom: 5px;
+    }
+
+    .gallery-subtitle {
+      font-size: 0.85rem;
+      color: var(--color-gray);
+      font-weight: 300;
+    }
+
+    /* ==========================================================================
+       9. DEPOIMENTOS (SOCIAL PROOF COM CARDS FLUTUANTES)
+       ========================================================================== */
+    .testimonials {
+      padding: 100px 0;
+    }
+
+    .testimonials-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+    }
+
+    .testimonial-card {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .testimonial-header {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+
+    .testimonial-avatar {
+      width: 55px;
+      height: 55px;
+      border-radius: 50%;
+      overflow: hidden;
+      border: 2px solid var(--color-red);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      color: var(--color-white);
+      font-size: 1.1rem;
+      box-shadow: 0 0 10px rgba(255, 45, 45, 0.2);
+    }
+
+    .avatar-1 { background: linear-gradient(135deg, #FF2D2D, #B30000); }
+    .avatar-2 { background: linear-gradient(135deg, #1A33FF, #00C0FF); }
+    .avatar-3 { background: linear-gradient(135deg, #FFD700, #B39200); }
+
+    .testimonial-info {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .testimonial-name {
+      font-size: 1rem;
+      font-weight: 700;
+    }
+
+    .testimonial-stars {
+      display: flex;
+      gap: 3px;
+      margin-top: 4px;
+    }
+
+    .testimonial-stars svg {
+      width: 14px;
+      height: 14px;
+      fill: var(--color-gold);
+    }
+
+    .testimonial-text {
+      font-size: 0.9rem;
+      color: var(--color-gray);
+      font-style: italic;
+      font-weight: 300;
+    }
+
+    /* ==========================================================================
+       10. GARANTIA INCONDICIONAL
+       ========================================================================== */
+    .warranty {
+      padding: 100px 0;
+      background: relative;
+    }
+
+    .warranty-card {
+      background: linear-gradient(135deg, rgba(20, 20, 20, 0.9) 0%, rgba(15, 15, 15, 0.95) 100%);
+      border: 1px solid rgba(255, 215, 0, 0.15);
+      border-radius: 30px;
+      padding: 50px 40px;
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
+      display: grid;
+      grid-template-columns: 180px 1fr;
+      gap: 40px;
+      align-items: center;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .warranty-badge {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+    }
+
+    .warranty-badge svg {
+      width: 150px;
+      height: 150px;
+      fill: none;
+      stroke: var(--color-gold);
+      stroke-width: 4px;
+      filter: drop-shadow(0 0 15px rgba(255, 215, 0, 0.3));
+      animation: float-slow 4s infinite ease-in-out;
+    }
+
+    @keyframes float-slow {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-8px); }
+    }
+
+    .warranty-text-title {
+      font-size: 1.8rem;
+      font-weight: 800;
+      color: var(--color-gold);
+      text-transform: uppercase;
+      margin-bottom: 15px;
+    }
+
+    .warranty-text-desc {
+      font-size: 1rem;
+      color: var(--color-gray);
+      margin-bottom: 20px;
+      font-weight: 300;
+    }
+
+    .warranty-footer-items {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .warranty-footer-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--color-white);
+    }
+
+    .warranty-footer-item svg {
+      width: 16px;
+      height: 16px;
+      fill: #4CAF50;
+    }
+
+    /* ==========================================================================
+       11. FAQ (ACCORDION COM VANILLA JS)
+       ========================================================================== */
+    .faq {
+      padding: 100px 0;
+    }
+
+    .faq-wrapper {
+      max-width: 800px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    .faq-item {
+      background: var(--bg-card);
+      border: 1px solid var(--border-glass);
+      border-radius: 15px;
+      overflow: hidden;
+      transition: var(--transition);
+    }
+
+    .faq-item:hover {
+      border-color: rgba(255, 255, 255, 0.15);
+    }
+
+    .faq-question {
+      padding: 22px 30px;
+      width: 100%;
+      background: none;
+      border: none;
+      color: var(--color-white);
+      font-family: var(--font-family);
+      font-size: 1.05rem;
+      font-weight: 700;
+      text-align: left;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .faq-icon {
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.05);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: var(--transition);
+    }
+
+    .faq-icon svg {
+      width: 12px;
+      height: 12px;
+      fill: var(--color-white);
+      transition: var(--transition);
+    }
+
+    .faq-answer {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+    }
+
+    .faq-answer-content {
+      padding: 0 30px 25px 30px;
+      color: var(--color-gray);
+      font-size: 0.95rem;
+      font-weight: 300;
+    }
+
+    /* Estados Ativos do Accordion */
+    .faq-item.active {
+      border-color: var(--color-red-glow);
+      background: rgba(30, 20, 20, 0.3);
+    }
+
+    .faq-item.active .faq-icon {
+      background: var(--color-red);
+      transform: rotate(45deg);
+    }
+
+    /* ==========================================================================
+       12. CHAMADA PARA AÇÃO FINAL (BOTTOM CTA)
+       ========================================================================== */
+    .bottom-cta {
+      padding: 100px 0;
+      text-align: center;
+      background: linear-gradient(0deg, rgba(255, 45, 45, 0.05) 0%, transparent 100%);
+      position: relative;
+    }
+
+    .bottom-cta-box {
+      max-width: 800px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+    }
+
+    .bottom-cta-title {
+      font-size: clamp(2rem, 4vw, 3rem);
+      font-weight: 900;
+      text-transform: uppercase;
+      line-height: 1.2;
+    }
+
+    .bottom-cta-title span {
+      color: var(--color-red);
+      text-shadow: 0 0 15px var(--color-red-glow);
+    }
+
+    /* ==========================================================================
+       13. FOOTER
+       ========================================================================== */
+    footer {
+      background: #050505;
+      padding: 60px 0 30px 0;
+      border-top: 1px solid rgba(255, 255, 255, 0.05);
+      font-size: 0.85rem;
+      color: #666666;
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 40px;
+      margin-bottom: 40px;
+    }
+
+    .footer-brand {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    .footer-logo {
+      font-weight: 800;
+      color: var(--color-white);
+      font-size: 1.2rem;
+    }
+
+    .footer-logo span {
+      color: var(--color-red);
+    }
+
+    .footer-nav {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      align-items: flex-end;
+    }
+
+    .footer-links {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .footer-links a {
+      color: #888888;
+      text-decoration: none;
+      transition: var(--transition);
+    }
+
+    .footer-links a:hover {
+      color: var(--color-red);
+    }
+
+    .footer-copyright {
+      border-top: 1px solid rgba(255, 255, 255, 0.02);
+      padding-top: 30px;
+      text-align: center;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    /* ==========================================================================
+       14. ANIMAÇÃO DE SCROLL (FADE IN)
+       ========================================================================== */
+    .reveal {
+      opacity: 0;
+      transform: translateY(30px);
+      transition: opacity 0.8s ease, transform 0.8s ease;
+    }
+
+    .reveal.active {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* ==========================================================================
+       15. RESPONSIVIDADE
+       ========================================================================== */
+    @media (max-width: 991px) {
+      .hero-grid {
+        grid-template-columns: 1fr;
+        gap: 50px;
+        text-align: center;
+      }
+      
+      .hero-text {
+        align-items: center;
+      }
+
+      .hero-promo-box {
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .hero-media-wrapper {
+        margin: 0 auto;
+      }
+
+      .warranty-card {
+        grid-template-columns: 1fr;
+        text-align: center;
+        padding: 40px 24px;
+      }
+
+      .warranty-badge svg {
+        width: 120px;
+        height: 120px;
+      }
+
+      .warranty-footer-items {
+        justify-content: center;
+      }
+
+      .footer-grid {
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 30px;
+      }
+
+      .footer-nav {
+        align-items: center;
+      }
+
+      .footer-copyright {
+        flex-direction: column;
+      }
+    }
+
+    @media (max-width: 767px) {
+      .gallery-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .payment-seals {
+        gap: 15px 25px;
+      }
+
+      .section-title {
+        margin-bottom: 40px;
+      }
+
+      .hero {
+        padding: 50px 0;
+      }
+
+      .btn-cta {
+        padding: 18px 24px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .mockup-stickers {
+        right: -10px;
+        bottom: -20px;
+        width: 55%;
+      }
+
+      .hero-promo-box {
+        padding: 16px;
+      }
+
+      .faq-question {
+        padding: 16px 20px;
+      }
+
+      .faq-answer-content {
+        padding: 0 20px 20px 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Partículas de Fundo -->
+  <div class="bg-particles">
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+  </div>
+
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <div class="logo">
+        ⚽ COPA<span>2026</span>
+      </div>
+      <div class="header-badge">
+        <!-- Ícone de Check/Segurança -->
+        <svg viewBox="0 0 24 24">
+          <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+        </svg>
+        Site 100% Protegido
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-grid">
+        <!-- Esquerda: Informações de Vendas -->
+        <div class="hero-text">
+          <span class="badge-special">🔥 Oferta Especial de Lançamento</span>
+          <h1 class="hero-title">O Álbum Digital da <span>Copa do Mundo 2026</span> chegou!</h1>
+          <p class="hero-subtitle">Baixe imediatamente o álbum completo + todas as figurinhas digitais em alta qualidade para celular, tablet ou computador.</p>
+
+          <!-- Caixa de Preço e Contador -->
+          <div class="hero-promo-box">
+            <div class="pricing-wrap">
+              <span class="price-old">De R$ 39,90</span>
+              <div class="price-new-wrap">
+                <span class="price-new-label">Por apenas</span>
+                <span class="price-new">R$ 9,90</span>
+              </div>
+            </div>
+
+            <!-- Contador Regressivo -->
+            <div class="timer-wrap">
+              <p class="timer-text">A oferta promocional termina em:</p>
+              <div id="countdown" class="timer-clock">09:59</div>
+            </div>
+          </div>
+
+          <!-- Botão CTA Principal -->
+          <button id="cta-button-main" class="btn-cta">⚽ QUERO MEU ÁLBUM AGORA</button>
+        </div>
+
+        <!-- Direita: Mockup Visual -->
+        <div class="hero-media">
+          <div class="media-glow media-glow-red"></div>
+          <div class="media-glow media-glow-blue"></div>
+          <div class="hero-media-wrapper">
+            <!-- Mockup do Álbum -->
+            <div class="mockup-main">
+              <img src="album.png" alt="Álbum Digital Copa 2026 Mockup" style="width: 100%; display: block;">
+              <div class="mockup-main-shine"></div>
+            </div>
+            <!-- Mockup das Figurinhas -->
+            <img src="figurinhas.png" alt="Figurinhas Digitais Mockup" class="mockup-stickers">
+          </div>
+        </div>
+      </div>
+
+      <!-- Selos de Segurança de Pagamento -->
+      <div class="payment-seals">
+        
+        <div class="seal-item">
+          <!-- Ícone de Raio / Instantâneo -->
+          <svg viewBox="0 0 24 24">
+            <path d="M7 2v11h3v9l7-12h-4l4-8z"/>
+          </svg>
+          Download Imediato
+        </div>
+        <div class="seal-item">
+          <!-- Ícone de Check Shield -->
+          <svg viewBox="0 0 24 24">
+            <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 15l-4-4 1.41-1.41L10 13.17l7.59-7.59L19 7l-9 9z"/>
+          </svg>
+          Checkout 100% Seguro
+        </div>
+        <div class="checkout-flags">
+          <span style="font-size: 0.85rem; font-weight: 700; color: #888; text-transform: uppercase;">Aceitamos:</span>
+          <!-- Representação visual simples e elegante das bandeiras -->
+          <span style="color: #4CAF50; font-weight: 800; font-size: 0.85rem; letter-spacing: 0.5px;">⚡ PIX</span>
+          <span style="color: #0070BA; font-weight: 800; font-size: 0.85rem; letter-spacing: 0.5px;">💳 CARTÃO</span>
+          <span style="color: #999; font-weight: 400; font-size: 0.8rem; letter-spacing: 0.5px;">Boleto</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- O Que Recebe -->
+  <section class="receive reveal" id="o-que-recebe">
+    <div class="container">
+      <h2 class="section-title">O que você <span>vai receber</span></h2>
+      <div class="receive-grid">
+        <!-- Card 1 -->
+        <div class="glass-card receive-card">
+          <div class="receive-card-icon">📖</div>
+          <h3 class="receive-card-title">Álbum Digital Completo</h3>
+          <p class="receive-card-desc">Estrutura oficial do álbum de 2026 com todas as seleções e estádios configurados.</p>
+        </div>
+        <!-- Card 2 -->
+        <div class="glass-card receive-card">
+          <div class="receive-card-icon">✨</div>
+          <h3 class="receive-card-title">Todas as Figurinhas</h3>
+          <p class="receive-card-desc">Mais de 600 figurinhas digitais recortadas em alta definição, incluindo brilhantes e lendárias.</p>
+        </div>
+        <!-- Card 3 -->
+        <div class="glass-card receive-card">
+          <div class="receive-card-icon">📄</div>
+          <h3 class="receive-card-title">Arquivos em PDF</h3>
+          <p class="receive-card-desc">Formato perfeito para visualização digital instantânea ou impressão profissional.</p>
+        </div>
+        <!-- Card 4 -->
+        <div class="glass-card receive-card">
+          <div class="receive-card-icon">🔍</div>
+          <h3 class="receive-card-title">Alta Qualidade</h3>
+          <p class="receive-card-desc">Todas as imagens estão em 300 DPI, garantindo definição perfeita em telas ou papéis.</p>
+        </div>
+        <!-- Card 5 -->
+        <div class="glass-card receive-card">
+          <div class="receive-card-icon">⚡</div>
+          <h3 class="receive-card-title">Download Imediato</h3>
+          <p class="receive-card-desc">Receba o link de acesso no seu e-mail imediatamente após a confirmação do pagamento.</p>
+        </div>
+        <!-- Card 6 -->
+        <div class="glass-card receive-card">
+          <div class="receive-card-icon">♾️</div>
+          <h3 class="receive-card-title">Acesso Vitalício</h3>
+          <p class="receive-card-desc">O arquivo é seu para sempre. Baixe e use quantas vezes quiser ao longo dos anos.</p>
+        </div>
+        <!-- Card 7 -->
+        <div class="glass-card receive-card">
+          <div class="receive-card-icon">📱</div>
+          <h3 class="receive-card-title">Compatível com Celular</h3>
+          <p class="receive-card-desc">Abra e monte seu álbum diretamente no Android ou iOS de forma simples e intuitiva.</p>
+        </div>
+        <!-- Card 8 -->
+        <div class="glass-card receive-card">
+          <div class="receive-card-icon">💻</div>
+          <h3 class="receive-card-title">Compatível com Computador</h3>
+          <p class="receive-card-desc">Organize e visualize no seu desktop ou notebook com visualização de página dupla.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Benefícios -->
+  <section class="benefits reveal" id="beneficios">
+    <div class="container">
+      <h2 class="section-title">Principais <span>Benefícios</span></h2>
+      <div class="benefits-grid">
+        <!-- Benefício 1 -->
+        <div class="benefit-item">
+          <div class="benefit-icon-wrapper">
+            <!-- Icon Economia / Dinheiro -->
+            <svg viewBox="0 0 24 24">
+              <path d="M11.8 10.9c-2.27-.59-3-1.2-3-2.15 0-1.09 1.01-1.85 2.7-1.85 1.78 0 2.44.85 2.5 2.1h2.21c-.07-1.72-1.12-3.3-3.21-3.81V3h-3v2.16c-1.94.42-3.5 1.68-3.5 3.61 0 2.31 1.91 3.46 4.7 4.13 2.5.6 3 1.48 3 2.41 0 1.21-1.04 2.01-2.9 2.01-1.96 0-2.72-1-2.8-2.36h-2.21c.1 2.16 1.7 3.39 3.51 3.82V21h3v-2.15c2.01-.37 3.5-1.5 3.5-3.51 0-2.73-2.16-3.84-4.8-4.44z"/>
+            </svg>
+          </div>
+          <h4 class="benefit-title">Economize Dinheiro</h4>
+          <p class="benefit-desc">Tenha a experiência completa do álbum por uma fração insignificante do custo físico tradicional.</p>
+        </div>
+
+        <!-- Benefício 2 -->
+        <div class="benefit-item">
+          <div class="benefit-icon-wrapper">
+            <!-- Icon Download -->
+            <svg viewBox="0 0 24 24">
+              <path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM17 13l-5 5-5-5h3V9h4v4h3z"/>
+            </svg>
+          </div>
+          <h4 class="benefit-title">Baixe Imediatamente</h4>
+          <p class="benefit-desc">Sem filas, sem frete e sem espera. O link de download é disponibilizado no mesmo minuto.</p>
+        </div>
+
+        <!-- Benefício 3 -->
+        <div class="benefit-item">
+          <div class="benefit-icon-wrapper">
+            <!-- Icon Impressora -->
+            <svg viewBox="0 0 24 24">
+              <path d="M19 8H5c-1.66 0-3 1.34-3 3v6h4v4h12v-4h4v-6c0-1.66-1.34-3-3-3zm-3 11H8v-5h8v5zm3-7c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zm-1-9H6v4h12V3z"/>
+            </svg>
+          </div>
+          <h4 class="benefit-title">Imprima Como Quiser</h4>
+          <p class="benefit-desc">Arquivos otimizados para você imprimir em papel fotográfico adesivo ou comum quantas vezes precisar.</p>
+        </div>
+
+        <!-- Benefício 4 -->
+        <div class="benefit-item">
+          <div class="benefit-icon-wrapper">
+            <!-- Icon Colecione / Trofeus -->
+            <svg viewBox="0 0 24 24">
+              <path d="M19 5h-2V3H7v2H5c-1.1 0-2 .9-2 2v3c0 2.44 1.72 4.48 4 4.88V18c0 1.1.9 2 2 2h6c1.1 0 2-.9 2-2v-3.12c2.28-.4 4-2.44 4-4.88V7c0-1.1-.9-2-2-2zm-12 5V7h2v3c0 .55-.45 1-1 1s-1-.45-1-1zm10 0c0 .55-.45 1-1 1s-1-.45-1-1V7h2v3zm-5 8c0 .55-.45 1-1 1H9c-.55 0-1-.45-1-1v-2h4v2z"/>
+            </svg>
+          </div>
+          <h4 class="benefit-title">Colecione Digitalmente</h4>
+          <p class="benefit-desc">Preencha o álbum colando as figurinhas usando qualquer aplicativo simples de edição ou marcação de PDF.</p>
+        </div>
+
+        <!-- Benefício 5 -->
+        <div class="benefit-item">
+          <div class="benefit-icon-wrapper">
+            <!-- Icon Compartilhar -->
+            <svg viewBox="0 0 24 24">
+              <path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81 1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9c-1.66 0-3 1.34-3 3s1.34 3 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65 0 1.61 1.31 2.92 2.92 2.92 1.61 0 2.92-1.31 2.92-2.92s-1.31-2.92-2.92-2.92z"/>
+            </svg>
+          </div>
+          <h4 class="benefit-title">Compartilhe o Álbum</h4>
+          <p class="benefit-desc">Mostre seu progresso para os amigos e troque arquivos de figurinhas digitais de forma rápida e divertida.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Galeria com Tilt e Preview Interno -->
+  <section class="gallery reveal" id="galeria">
+    <div class="container">
+      <h2 class="section-title">Veja por <span>dentro</span></h2>
+      <div class="gallery-grid">
+        <!-- Card Galeria 1 -->
+        <div class="gallery-card">
+          <!-- Substituir o caminho src abaixo com sua imagem real -->
+          <img src="brasil.png" alt="Visualização Interna do Álbum Digital">
+          <div class="gallery-overlay">
+            <span class="gallery-tag">100% Organizado</span>
+            <h3 class="gallery-title">Páginas de Seleções</h3>
+            <p class="gallery-subtitle">Slots demarcados e numeração exata para colar as figurinhas sem erro.</p>
+          </div>
+        </div>
+
+        <!-- Card Galeria 2 -->
+        <div class="gallery-card">
+          <!-- Substituir o caminho src abaixo com sua imagem real -->
+          <img src="jogadores.png" alt="Figurinhas Premium e Raridades">
+          <div class="gallery-overlay">
+            <span class="gallery-tag">Design Oficial</span>
+            <h3 class="gallery-title">Coleção de Craques</h3>
+            <p class="gallery-subtitle">Neymar, Vinícius Jr., Messi e Mbappé em cards e figurinhas detalhadas.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Depoimentos (Social Proof) -->
+  <section class="testimonials reveal" id="depoimentos">
+    <div class="container">
+      <h2 class="section-title">Quem já <span>comprou aprova!</span></h2>
+      <div class="testimonials-grid">
+        <!-- Depoimento 1 -->
+        <div class="glass-card testimonial-card">
+          <div class="testimonial-header">
+            <div class="testimonial-avatar avatar-1">TF</div>
+            <div class="testimonial-info">
+              <span class="testimonial-name">Thiago Ferreira</span>
+              <div class="testimonial-stars">
+                <!-- 5 estrelas em SVG -->
+                <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+              </div>
+            </div>
+          </div>
+          <p class="testimonial-text">"Excelente qualidade! Comprei para o meu filho e imprimimos em papel fotográfico adesivo. Ficou idêntico ao original e economizei mais de R$ 500 reais comprando figurinhas digitais em vez de pacotinhos físicos."</p>
+        </div>
+
+        <!-- Depoimento 2 -->
+        <div class="glass-card testimonial-card">
+          <div class="testimonial-header">
+            <div class="testimonial-avatar avatar-2">AM</div>
+            <div class="testimonial-info">
+              <span class="testimonial-name">Aline Mendes</span>
+              <div class="testimonial-stars">
+                <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+              </div>
+            </div>
+          </div>
+          <p class="testimonial-text">"O download é imediato mesmo, paguei por PIX e em menos de 1 minuto o PDF e a pasta com as figurinhas estavam no meu e-mail. A qualidade do arquivo em PDF é fantástica, dá para ver os detalhes da textura das figurinhas."</p>
+        </div>
+
+        <!-- Depoimento 3 -->
+        <div class="glass-card testimonial-card">
+          <div class="testimonial-header">
+            <div class="testimonial-avatar avatar-3">RC</div>
+            <div class="testimonial-info">
+              <span class="testimonial-name">Rodrigo Costa</span>
+              <div class="testimonial-stars">
+                <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+              </div>
+            </div>
+          </div>
+          <p class="testimonial-text">"Uso muito no meu iPad. Baixei o PDF e vou colando digitalmente as figurinhas que vieram na pasta. Muito prático para colecionar no dia a dia. Sem contar que o preço é ridiculamente barato pelo conteúdo."</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- FAQ Accordion -->
+  <section class="faq reveal" id="faq">
+    <div class="container">
+      <h2 class="section-title">Perguntas <span>Frequentes</span></h2>
+      <div class="faq-wrapper">
+        
+        <!-- FAQ 1 -->
+        <div class="faq-item">
+          <button class="faq-question">
+            Como recebo o produto?
+            <span class="faq-icon">
+              <svg viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/></svg>
+            </span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              Imediatamente após a confirmação do pagamento, você receberá um e-mail com os dados de acesso e o link direto para fazer o download do álbum em PDF e de todas as figurinhas digitais. O processo é 100% automatizado e instantâneo.
+            </div>
+          </div>
+        </div>
+
+        <!-- FAQ 2 -->
+        <div class="faq-item">
+          <button class="faq-question">
+            O álbum é físico?
+            <span class="faq-icon">
+              <svg viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/></svg>
+            </span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              Não, este produto é 100% digital. Você receberá os arquivos de alta qualidade do álbum e todas as figurinhas prontas para serem impressas ou usadas diretamente no seu dispositivo móvel ou computador.
+            </div>
+          </div>
+        </div>
+
+        <!-- FAQ 3 -->
+        <div class="faq-item">
+          <button class="faq-question">
+            Posso imprimir as figurinhas em casa?
+            <span class="faq-icon">
+              <svg viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/></svg>
+            </span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              Sim! Os arquivos em formato PDF estão configurados na resolução padrão para impressão (300 DPI). Você pode imprimi-los em qualquer impressora caseira ou levar em uma gráfica rápida, utilizando papel comum ou papel fotográfico adesivo para obter o melhor resultado.
+            </div>
+          </div>
+        </div>
+
+        <!-- FAQ 4 -->
+        <div class="faq-item">
+          <button class="faq-question">
+            Funciona no celular?
+            <span class="faq-icon">
+              <svg viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/></svg>
+            </span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              Com certeza! O álbum é disponibilizado em formato PDF, que é universal e abre em qualquer smartphone (Android ou iPhone). As figurinhas vêm separadas em uma pasta organizada para que você possa usá-las em aplicativos de anotação (GoodNotes, Xodo, etc.) ou colá-las como desejar.
+            </div>
+          </div>
+        </div>
+
+        <!-- FAQ 5 -->
+        <div class="faq-item">
+          <button class="faq-question">
+            Por quanto tempo tenho acesso aos arquivos?
+            <span class="faq-icon">
+              <svg viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/></svg>
+            </span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              Seu acesso é vitalício. Uma vez que você faz o download dos arquivos para o seu dispositivo, eles serão seus para sempre. Você pode guardá-los no Google Drive, celular ou computador e acessá-los quando quiser.
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA de Fechamento -->
+  <section class="bottom-cta">
+    <div class="container">
+      <div class="bottom-cta-box">
+        <h2 class="bottom-cta-title">Não perca essa <span>oportunidade única!</span></h2>
+        <p style="color: var(--color-gray); font-size: 1.1rem; font-weight: 300; max-width: 600px;">Garanta agora o seu Álbum Digital Completo com todas as figurinhas da Copa do Mundo 2026 antes que o preço suba de volta para R$ 39,90.</p>
+        <button id="cta-button-bottom" class="btn-cta">⚽ QUERO MEU ÁLBUM AGORA</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo">⚽ COPA<span>2026</span></div>
+          <p style="max-width: 500px; font-weight: 300;">Oferecemos uma experiência colecionável digital de alto nível para os apaixonados por futebol, aliando praticidade e economia na maior celebração esportiva do planeta.</p>
+        </div>
+        <div class="footer-nav">
+          <div class="footer-links">
+            <a href="#o-que-recebe">O que Recebe</a>
+            <a href="#beneficios">Benefícios</a>
+            <a href="#faq">FAQ</a>
+          </div>
+          <p style="color: #666;">Contato: suporte@albumdigitalcopa2026.com</p>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <p>&copy; 2026 Álbum Digital da Copa 2026. Todos os direitos reservados.</p>
+        <div class="footer-links" style="font-size: 0.8rem;">
+          <a href="#">Políticas de Privacidade</a>
+          <a href="#">Termos de Uso</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    /* ==========================================================================
+       1. CONTADOR REGRESSIVO DINÂMICO
+       ========================================================================== */
+    const countdownElement = document.getElementById('countdown');
+    
+    function startCountdown() {
+      let duration = 9 * 60 + 59; // 9 minutos e 59 segundos
+      
+      setInterval(() => {
+        let minutes = Math.floor(duration / 60);
+        let seconds = duration % 60;
+        
+        // Formatar para adicionar zero à esquerda
+        minutes = minutes < 10 ? '0' + minutes : minutes;
+        seconds = seconds < 10 ? '0' + seconds : seconds;
+        
+        countdownElement.textContent = `${minutes}:${seconds}`;
+        
+        if (--duration < 0) {
+          duration = 9 * 60 + 59; // Reinicia ao chegar no zero
+        }
+      }, 1000);
+    }
+    
+    startCountdown();
+
+    /* ==========================================================================
+       2. LINK DE REDIRECIONAMENTO DE VENDAS (CAKTO)
+       ========================================================================== */
+    // INSIRA SEU LINK DE CHECKOUT DA CAKTO ABAIXO:
+    const LINK_CHECKOUT_CAKTO = "COLE_AQUI_SEU_LINK_DA_CAKTO";
+
+    function irParaCheckout() {
+      if (LINK_CHECKOUT_CAKTO === "COLE_AQUI_SEU_LINK_DA_CAKTO" || !LINK_CHECKOUT_CAKTO) {
+        alert("Link de checkout não configurado. Por favor, edite o código HTML e substitua 'COLE_AQUI_SEU_LINK_DA_CAKTO' pelo seu link real da Cakto.");
+      } else {
+        window.location.href = LINK_CHECKOUT_CAKTO;
+      }
+    }
+
+    // Configurando cliques dos botões CTA
+    document.getElementById('cta-button-main').addEventListener('click', irParaCheckout);
+    document.getElementById('cta-button-bottom').addEventListener('click', irParaCheckout);
+
+    /* ==========================================================================
+       3. INTERATIVIDADE DO FAQ (ACCORDION ACCESSIBLE)
+       ========================================================================== */
+    const faqQuestions = document.querySelectorAll('.faq-question');
+
+    faqQuestions.forEach(question => {
+      question.addEventListener('click', () => {
+        const item = question.parentElement;
+        const answer = question.nextElementSibling;
+        
+        // Fechar outros accordions abertos
+        document.querySelectorAll('.faq-item').forEach(otherItem => {
+          if (otherItem !== item && otherItem.classList.contains('active')) {
+            otherItem.classList.remove('active');
+            otherItem.querySelector('.faq-answer').style.maxHeight = null;
+          }
+        });
+
+        // Alternar accordion atual
+        item.classList.toggle('active');
+        if (item.classList.contains('active')) {
+          answer.style.maxHeight = answer.scrollHeight + 'px';
+        } else {
+          answer.style.maxHeight = null;
+        }
+      });
+    });
+
+    /* ==========================================================================
+       4. ANIMAR SEÇÕES AO ROLAR A TELA (REVEAL ON SCROLL)
+       ========================================================================== */
+    const revealElements = document.querySelectorAll('.reveal');
+
+    function checkReveal() {
+      const triggerBottom = window.innerHeight * 0.85;
+
+      revealElements.forEach(element => {
+        const elementTop = element.getBoundingClientRect().top;
+
+        if (elementTop < triggerBottom) {
+          element.classList.add('active');
+        }
+      });
+    }
+
+    // Executar no carregamento inicial e no scroll
+    window.addEventListener('scroll', checkReveal);
+    window.addEventListener('load', checkReveal);
+  </script>
+</body>
+</html>
